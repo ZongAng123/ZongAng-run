@@ -9,12 +9,27 @@
 /* Begin PBXBuildFile section */
 		74F13D2C1E5818D800A782D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F13D2B1E5818D800A782D9 /* main.m */; };
 		74F13D2F1E5818D800A782D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F13D2E1E5818D800A782D9 /* AppDelegate.m */; };
-		74F13D321E5818D800A782D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F13D311E5818D800A782D9 /* ViewController.m */; };
-		74F13D351E5818D800A782D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F13D331E5818D800A782D9 /* Main.storyboard */; };
 		74F13D371E5818D800A782D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F13D361E5818D800A782D9 /* Assets.xcassets */; };
 		74F13D3A1E5818D800A782D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F13D381E5818D800A782D9 /* LaunchScreen.storyboard */; };
 		74F13D451E5818D800A782D9 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F13D441E5818D800A782D9 /* ____Tests.m */; };
 		74F13D501E5818D800A782D9 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F13D4F1E5818D800A782D9 /* ____UITests.m */; };
+		74F13D611E58198400A782D9 /* TimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F13D601E58198400A782D9 /* TimeManager.m */; };
+		74F13D681E5819FA00A782D9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F13D671E5819FA00A782D9 /* RootViewController.m */; };
+		74F13D6B1E581A1400A782D9 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F13D6A1E581A1400A782D9 /* MenuViewController.m */; };
+		74F13D6E1E581A2D00A782D9 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F13D6D1E581A2D00A782D9 /* GameViewController.m */; };
+		74F13D711E581A5000A782D9 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F13D701E581A5000A782D9 /* MenuView.m */; };
+		74F13D781E581CEE00A782D9 /* FirstGameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F13D751E581CEE00A782D9 /* FirstGameScene.m */; };
+		74F13D791E581CEE00A782D9 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F13D771E581CEE00A782D9 /* GameOverScene.m */; };
+		74F13D851E5823AD00A782D9 /* 3.caf in Resources */ = {isa = PBXBuildFile; fileRef = 74F13D7B1E5823AD00A782D9 /* 3.caf */; };
+		74F13D861E5823AD00A782D9 /* Default-568h@2x.png 11-39-09-834.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F13D7C1E5823AD00A782D9 /* Default-568h@2x.png 11-39-09-834.png */; };
+		74F13D871E5823AD00A782D9 /* perRun.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 74F13D7D1E5823AD00A782D9 /* perRun.atlas */; };
+		74F13D881E5823AD00A782D9 /* sceneView_ground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F13D7E1E5823AD00A782D9 /* sceneView_ground@2x.png */; };
+		74F13D891E5823AD00A782D9 /* 关于游戏.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F13D7F1E5823AD00A782D9 /* 关于游戏.png */; };
+		74F13D8A1E5823AD00A782D9 /* 开始游戏.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F13D801E5823AD00A782D9 /* 开始游戏.png */; };
+		74F13D8B1E5823AD00A782D9 /* 标题.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F13D811E5823AD00A782D9 /* 标题.png */; };
+		74F13D8C1E5823AD00A782D9 /* 返回菜单.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F13D821E5823AD00A782D9 /* 返回菜单.png */; };
+		74F13D8D1E5823AD00A782D9 /* 退出游戏.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F13D831E5823AD00A782D9 /* 退出游戏.png */; };
+		74F13D8E1E5823AD00A782D9 /* 重新开始.png in Resources */ = {isa = PBXBuildFile; fileRef = 74F13D841E5823AD00A782D9 /* 重新开始.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +54,6 @@
 		74F13D2B1E5818D800A782D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		74F13D2D1E5818D800A782D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74F13D2E1E5818D800A782D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74F13D301E5818D800A782D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74F13D311E5818D800A782D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		74F13D341E5818D800A782D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74F13D361E5818D800A782D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74F13D391E5818D800A782D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74F13D3B1E5818D800A782D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +63,30 @@
 		74F13D4B1E5818D800A782D9 /* 纵昂快跑UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "纵昂快跑UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F13D4F1E5818D800A782D9 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		74F13D511E5818D800A782D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F13D5F1E58198400A782D9 /* TimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeManager.h; sourceTree = "<group>"; };
+		74F13D601E58198400A782D9 /* TimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeManager.m; sourceTree = "<group>"; };
+		74F13D661E5819FA00A782D9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		74F13D671E5819FA00A782D9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		74F13D691E581A1400A782D9 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		74F13D6A1E581A1400A782D9 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		74F13D6C1E581A2D00A782D9 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		74F13D6D1E581A2D00A782D9 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		74F13D6F1E581A5000A782D9 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		74F13D701E581A5000A782D9 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		74F13D741E581CEE00A782D9 /* FirstGameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstGameScene.h; sourceTree = "<group>"; };
+		74F13D751E581CEE00A782D9 /* FirstGameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstGameScene.m; sourceTree = "<group>"; };
+		74F13D761E581CEE00A782D9 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		74F13D771E581CEE00A782D9 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		74F13D7B1E5823AD00A782D9 /* 3.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.caf; sourceTree = "<group>"; };
+		74F13D7C1E5823AD00A782D9 /* Default-568h@2x.png 11-39-09-834.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png 11-39-09-834.png"; sourceTree = "<group>"; };
+		74F13D7D1E5823AD00A782D9 /* perRun.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = perRun.atlas; sourceTree = "<group>"; };
+		74F13D7E1E5823AD00A782D9 /* sceneView_ground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sceneView_ground@2x.png"; sourceTree = "<group>"; };
+		74F13D7F1E5823AD00A782D9 /* 关于游戏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关于游戏.png"; sourceTree = "<group>"; };
+		74F13D801E5823AD00A782D9 /* 开始游戏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "开始游戏.png"; sourceTree = "<group>"; };
+		74F13D811E5823AD00A782D9 /* 标题.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标题.png"; sourceTree = "<group>"; };
+		74F13D821E5823AD00A782D9 /* 返回菜单.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回菜单.png"; sourceTree = "<group>"; };
+		74F13D831E5823AD00A782D9 /* 退出游戏.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "退出游戏.png"; sourceTree = "<group>"; };
+		74F13D841E5823AD00A782D9 /* 重新开始.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "重新开始.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +137,9 @@
 		74F13D291E5818D800A782D9 /* 纵昂快跑 */ = {
 			isa = PBXGroup;
 			children = (
-				74F13D2D1E5818D800A782D9 /* AppDelegate.h */,
-				74F13D2E1E5818D800A782D9 /* AppDelegate.m */,
-				74F13D301E5818D800A782D9 /* ViewController.h */,
-				74F13D311E5818D800A782D9 /* ViewController.m */,
-				74F13D331E5818D800A782D9 /* Main.storyboard */,
+				74F13D7A1E5823AD00A782D9 /* GameResources */,
+				74F13D5E1E58194D00A782D9 /* Utils */,
+				74F13D5D1E58194100A782D9 /* Class */,
 				74F13D361E5818D800A782D9 /* Assets.xcassets */,
 				74F13D381E5818D800A782D9 /* LaunchScreen.storyboard */,
 				74F13D3B1E5818D800A782D9 /* Info.plist */,
@@ -138,6 +172,85 @@
 				74F13D511E5818D800A782D9 /* Info.plist */,
 			);
 			path = "纵昂快跑UITests";
+			sourceTree = "<group>";
+		};
+		74F13D5D1E58194100A782D9 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				74F13D651E5819C400A782D9 /* Scene */,
+				74F13D641E5819B900A782D9 /* VIew */,
+				74F13D631E5819AA00A782D9 /* ViewController */,
+				74F13D621E58199D00A782D9 /* AppDelegate */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		74F13D5E1E58194D00A782D9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				74F13D5F1E58198400A782D9 /* TimeManager.h */,
+				74F13D601E58198400A782D9 /* TimeManager.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		74F13D621E58199D00A782D9 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				74F13D2D1E5818D800A782D9 /* AppDelegate.h */,
+				74F13D2E1E5818D800A782D9 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		74F13D631E5819AA00A782D9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74F13D661E5819FA00A782D9 /* RootViewController.h */,
+				74F13D671E5819FA00A782D9 /* RootViewController.m */,
+				74F13D691E581A1400A782D9 /* MenuViewController.h */,
+				74F13D6A1E581A1400A782D9 /* MenuViewController.m */,
+				74F13D6C1E581A2D00A782D9 /* GameViewController.h */,
+				74F13D6D1E581A2D00A782D9 /* GameViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		74F13D641E5819B900A782D9 /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				74F13D6F1E581A5000A782D9 /* MenuView.h */,
+				74F13D701E581A5000A782D9 /* MenuView.m */,
+			);
+			name = VIew;
+			sourceTree = "<group>";
+		};
+		74F13D651E5819C400A782D9 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				74F13D741E581CEE00A782D9 /* FirstGameScene.h */,
+				74F13D751E581CEE00A782D9 /* FirstGameScene.m */,
+				74F13D761E581CEE00A782D9 /* GameOverScene.h */,
+				74F13D771E581CEE00A782D9 /* GameOverScene.m */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		74F13D7A1E5823AD00A782D9 /* GameResources */ = {
+			isa = PBXGroup;
+			children = (
+				74F13D7B1E5823AD00A782D9 /* 3.caf */,
+				74F13D7C1E5823AD00A782D9 /* Default-568h@2x.png 11-39-09-834.png */,
+				74F13D7D1E5823AD00A782D9 /* perRun.atlas */,
+				74F13D7E1E5823AD00A782D9 /* sceneView_ground@2x.png */,
+				74F13D7F1E5823AD00A782D9 /* 关于游戏.png */,
+				74F13D801E5823AD00A782D9 /* 开始游戏.png */,
+				74F13D811E5823AD00A782D9 /* 标题.png */,
+				74F13D821E5823AD00A782D9 /* 返回菜单.png */,
+				74F13D831E5823AD00A782D9 /* 退出游戏.png */,
+				74F13D841E5823AD00A782D9 /* 重新开始.png */,
+			);
+			path = GameResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +356,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74F13D8C1E5823AD00A782D9 /* 返回菜单.png in Resources */,
+				74F13D851E5823AD00A782D9 /* 3.caf in Resources */,
 				74F13D3A1E5818D800A782D9 /* LaunchScreen.storyboard in Resources */,
+				74F13D8E1E5823AD00A782D9 /* 重新开始.png in Resources */,
+				74F13D871E5823AD00A782D9 /* perRun.atlas in Resources */,
+				74F13D8B1E5823AD00A782D9 /* 标题.png in Resources */,
+				74F13D881E5823AD00A782D9 /* sceneView_ground@2x.png in Resources */,
+				74F13D861E5823AD00A782D9 /* Default-568h@2x.png 11-39-09-834.png in Resources */,
+				74F13D8D1E5823AD00A782D9 /* 退出游戏.png in Resources */,
+				74F13D8A1E5823AD00A782D9 /* 开始游戏.png in Resources */,
+				74F13D891E5823AD00A782D9 /* 关于游戏.png in Resources */,
 				74F13D371E5818D800A782D9 /* Assets.xcassets in Resources */,
-				74F13D351E5818D800A782D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +392,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74F13D321E5818D800A782D9 /* ViewController.m in Sources */,
+				74F13D791E581CEE00A782D9 /* GameOverScene.m in Sources */,
+				74F13D6B1E581A1400A782D9 /* MenuViewController.m in Sources */,
+				74F13D6E1E581A2D00A782D9 /* GameViewController.m in Sources */,
 				74F13D2F1E5818D800A782D9 /* AppDelegate.m in Sources */,
+				74F13D781E581CEE00A782D9 /* FirstGameScene.m in Sources */,
+				74F13D611E58198400A782D9 /* TimeManager.m in Sources */,
+				74F13D711E581A5000A782D9 /* MenuView.m in Sources */,
 				74F13D2C1E5818D800A782D9 /* main.m in Sources */,
+				74F13D681E5819FA00A782D9 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +436,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		74F13D331E5818D800A782D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				74F13D341E5818D800A782D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		74F13D381E5818D800A782D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
